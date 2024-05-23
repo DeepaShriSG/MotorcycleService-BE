@@ -1,0 +1,81 @@
+# Motorcycle Service Management
+
+## Project Overview
+
+Motorcycle Service Management is a full-stack web application designed to streamline the operations of motorcycle service centers. The application provides functionalities for administrators, engineers, and users, ensuring efficient service booking, tracking, and management.
+
+## Features
+
+### Admin
+- Create Engineer accounts
+- Assign users to Engineers
+- View and manage all users and Engineers
+- Update service actions and send emails to users
+- Edit profile and reset password
+
+### Engineer
+- View assigned users
+- Check user services
+- View completed user services (Status: Completed)
+- Update service status
+- Edit profile and reset password
+
+### User
+- Book service appointments
+- Edit service details
+- Edit profile and reset password
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - Vite
+  - HTML, CSS, JavaScript
+
+- **Backend:**
+  - Node.js
+  - Express.js
+  - RESTful APIs
+
+- **Database:**
+  - MongoDB
+
+- **Authentication:**
+  - JWT (JSON Web Tokens)
+
+## Deployment
+
+- **Backend URL:** [https://ms-be.onrender.com](https://ms-be.onrender.com)
+
+## Sample Credentials
+
+### Admin
+- **Email:** adriana79@hotmail.com
+- **Password:** 123
+
+### Engineer
+- **Email:** alberta.Hayes6@yahoo.com
+- **Password:** 123
+
+### User
+- **Email:** chrissjess15@gmail.com
+- **Password:** 123
+
+## Installation
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js
+- MongoDB
+
+### Backend Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/motorcycle-service-management.git
+   cd motorcycle-service-management/backend
+
+
+
