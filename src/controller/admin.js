@@ -55,7 +55,7 @@ const assignEngineer = async (req, res) => {
     }
 
     // Find the engineer by their id
-    const engineer = await engineerModel.findById(  req.body.id );
+    const engineer = await engineerModel.findById(  req.body.engineerId );
     
     
 
